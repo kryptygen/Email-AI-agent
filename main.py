@@ -24,7 +24,7 @@ load_dotenv()
 llm = ChatOpenAI(
     openai_api_base="https://openrouter.ai/api/v1",
     openai_api_key=os.environ["OPENROUTER_API_KEY"],
-    model="mistralai/devstral-small:free",
+    model="tngtech/deepseek-r1t-chimera:free",
     temperature=0.5
 )
 
